@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check out repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout
       - run: echo "${cat hello_world.txt}"
